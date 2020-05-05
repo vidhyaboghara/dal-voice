@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "769689153412",
+    "firebase_url": "https://dal-voice-f2110.firebaseio.com",
+    "project_id": "dal-voice-f2110",
+    "storage_bucket": "dal-voice-f2110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769689153412:android:16146f3e2a07b5fa2237d1",
+        "android_client_info": {
+          "package_name": "com.example.triggermindscape.dalvoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769689153412-saqmeof5edebkhnoptcetldo27qg88hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.triggermindscape.dalvoice",
+            "certificate_hash": "df61ff0c56d45d5869a333540f3467a4da0eb5e5"
+          }
+        },
+        {
+          "client_id": "769689153412-s27115c1h257v5umrvkarv1rujkpq0an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7SCjzJgwlMGe3sGChUOavZNCkJkqipMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769689153412-s27115c1h257v5umrvkarv1rujkpq0an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

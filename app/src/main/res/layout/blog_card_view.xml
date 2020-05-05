@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="8dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/blog_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/blog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_image"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="17sp"
+            tools:text="Student who says she flap has a replacement rodent, lawyer says" />
+
+        <TextView
+            android:id="@+id/blog_created_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blog_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+            tools:text="Created by: Anshdeep" />
+
+        <ImageView
+            android:id="@+id/like_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/blog_title"
+            android:layout_alignTop="@id/blog_created_by"
+            android:layout_alignBottom="@id/blog_time"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/like" />
+
+        <TextView
+            android:id="@+id/like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blog_title"
+            android:layout_alignTop="@id/like_icon"
+            android:layout_alignBottom="@id/like_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:text=": 20" />
+
+        <TextView
+            android:id="@+id/blog_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blog_created_by"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="14sp"
+            tools:text="26th October 2019 5:15 PM" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

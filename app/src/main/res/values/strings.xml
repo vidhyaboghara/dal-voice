@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Dal Voice</string>
+    <string name="addBlog">ADD BLOG</string>
+    <string name="heading_cover_pic">COVER PICTURE</string>
+    <string name="choose_cover_picture">Choose cover picture</string>
+    <string name="publish">PUBLISH</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+    <string-array name="category">
+        <item>General</item>
+        <item>Technology</item>
+        <item>University</item>
+        <item>Travel</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+        <item>Business</item>
+        <item>Food</item>
+    </string-array>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="reset_password">Forgot Password?</string>
+    <string name="go_to_home"><u>SKIP TO HOMEPAGE</u></string>
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+    <string name="dal_ca">dal.ca</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">login</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="full_name">Full name</string>
+    <string name="image_view_todo">TODO</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="image_todo">TODO</string>
+    <string name="dal_email_hint">Dal email id</string>
+    <string name="imagetodo">TODO</string>
+    <string name="hint">Password</string>
+    <string name="hint_confirm">Confirm password</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="logo">DAL VOICE</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_your_registered_email_address_below">Enter your registered email address below</string>
+    <string name="reset_password_button">Reset password</string>
+    <string name="password_min_error">Password should be minimum 6 characters</string>
+    <string name="invalid_email_error">Invalid email or password</string>
+    <string name="password_empty_error">Password cannot be empty!</string>
+    <string name="confirm_pwd_empty_error">Confirm password cannot be empty!</string>
+    <string name="pwd_match_error">Passwords don\'t match!</string>
+    <string name="fill_fields_error">Please fill all the fields!</string>
+    <string name="fix_errors_text">Please fix the errors!</string>
+    <string name="email_sent_text">Verification email sent</string>
+    <string name="enter_valid_email_error">Enter a valid dal email address</string>
+    <string name="email_not_empty_error">Email address cannot be empty!</string>
+    <string name="fix_error_text">Please fix the error</string>
+    <string name="sent_instructions_text">We have sent you instructions to reset your password!</string>
+    <string name="failed_reset_email">Failed to send reset email</string>
+    <string name="all_permissions_granted">All permissions are granted by user!</string>
+    <string name="profile_picture_updated">Profile picture updated</string>
+    <string name="getting_user_details">Getting user details...</string>
+    <string name="error_setting_permissions">Error setting permissions</string>
+    <string name="select_pic_error">Please select a profile photo</string>
+    <string name="save_changes_text">Please save the changes before logging out</string>
+    <string name="email_auth_error">Email authentication is pending</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="save_changes_before_proceed">Please save the changes before proceeding to change password</string>
+    <string name="content">Content</string>
+    <string name="dal_voice_feed">DAL VOICE FEED</string>
+    <string name="category">Category</string>
+    <string name="username_empty_error">User name cannot be empty!</string>
+    <string name="could_not_load_error">Could not load data</string>
+
+    <string name="txtProfileDetails">Profile Details</string>
+    <string name="tvChangePwd">Change Password</string>
+    <string name="enterPwd">Enter Password</string>
+    <string name="changePwd">Change Password</string>
+    <string name="updatePwd">Update Password</string>
+    <string name="logOut">Log Out</string>
+    <string name="Save">Save</string>
+
+    <string name="catGeneral">General</string>
+    <string name="catTechnology">Technology</string>
+    <string name="catUniversity">University</string>
+    <string name="catTravel">Travel</string>
+    <string name="catEntmnt">Entertainment</string>
+    <string name="catSports">Sports</string>
+    <string name="catBusiness">Business</string>
+    <string name="catFood">Food</string>
+
+    <string name="shareViaText">Share via</string>
+
+    <string name="OldPassword">Old password</string>
+    <string name="NewPassword">New password</string>
+</resources>
